@@ -10,7 +10,8 @@ function use (url){
             console.log(`Address: ${element.address.street} ${element.address.suite}`);
             console.log(`${element.address.city} ${element.address.zipcode}`);
             console.log(`Phone: ${element.phone}`);
-            console.log(`Email: ${element.email}`)
+            console.log(`Email: ${element.email}`);
+            console.log(' ')
         });
     
     
