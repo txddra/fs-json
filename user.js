@@ -1,3 +1,4 @@
+const fs = require('fs');
 const axios = require('axios');
 
 const url ='https://jsonplaceholder.typicode.com/users';
@@ -19,3 +20,11 @@ function use (url){
 }
 
 use(url)
+
+
+fs.writeFile('addressList.json',(err)=>{
+    if(err){
+        console.log('There is no data in the file')
+    }
+
+})
