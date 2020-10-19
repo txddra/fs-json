@@ -20,3 +20,5 @@ Create a file called addressList.js:
 - If data does not exist, the function should log ‘There is no data in the file’ in the terminal and stop the program.
 - Otherwise, The function should create a file called addressList.txt
 - The file should look like the addressList.txt I have provided below under 'Files'
+
+

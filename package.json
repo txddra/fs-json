@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/txddra/fs-json/issues"
   },
-  "homepage": "https://github.com/txddra/fs-json#readme"
+  "homepage": "https://github.com/txddra/fs-json#readme",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
 }
