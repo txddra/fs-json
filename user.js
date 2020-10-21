@@ -18,13 +18,15 @@ function use (url){
     
     }).catch((err)=> console.log(err))
 }
+// use(url)
+let data = JSON.stringify(use(url))
+console.log(data)
 
-use(url)
 
 
-fs.writeFile('addressList.json',(err)=>{
-    if(err){
-        console.log('There is no data in the file')
-    }
+// fs.writeFile('addressList.json',(err)=>{
+//     if(err){
+//         console.log('There is no data in the file')
+//     }
 
-})
+// })
